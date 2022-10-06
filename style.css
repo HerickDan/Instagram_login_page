@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+}
+.direita{
+    background-color: #fafafa;
+    border: solid 1px #dbdbdb;
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 60px 30px 5px 30px;
+    position: relative;
+
+    width: 350px;
+    height: 350px;
+}
+.login_element{
+    top: 8%;
+    position: relative;
+    left: 40px;
+    width: 258px;
+    height: 36;
+    padding: 9px 0 7px 8px;
+    border: solid 0.1;
+}
+
+.login_botao{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(0,149,246,.3);
+    background-color: rgba(var(--d69,0,149,246),.3);
+    color:white;
+    border: solid 1px #c2b5b5;
+}
+.alternativa{
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40px;
+}
+.facebook{
+    margin-left: 80px;
+    border: none;
+    background-color:rgba(245, 245, 220, 0);
+    color: blue;
+     text-decoration: none;
+}
+span{
+    position: relative;
+}
+.aviso{
+    text-decoration: none;
+    margin-left: 120px;
+    font-size: 12px;
+    margin-top: 10%;
+}
+.rodape{
+    width: 410px;
+    height: 50px;
+    margin-top: 8%;
+    display: flex;
+   margin-left:-30px ;
+    justify-content: center;
+    background-color: #fafafa;
+    border: solid 1px #dbdbdb;
+    padding: 10px 0;
+}
+.loja_apps{
+    display: flex;
+    justify-content: center;
+}
+.loja_apps>img{
+    width: 136px;
+    height:44px ;
+}
